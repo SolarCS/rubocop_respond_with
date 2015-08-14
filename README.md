@@ -1,13 +1,13 @@
-# rubocop_require_relative
+# rubocop_respond_with
 
-This gem extends rubocop to catch require_relative.
+This gem extends rubocop to catch respond_with.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```
-gem 'rubocop_require_relative'
+gem 'rubocop_respond_with'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ $ bundle
 In .rubocop.yml add this line:
 
 ```
-require: "rubocop_require_relative"
+require: "rubocop_respond_with"
 ```
 
 ## Development
@@ -39,7 +39,7 @@ git commits and tags, and push the `.gem` file to
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
-https://github.com/SolarCS/rubocop_require_relative. This project is
+https://github.com/SolarCS/rubocop_respond_with. This project is
 intended to be a safe, welcoming space for collaboration, and contributors are
 expected to adhere to the [Contributor
 Covenant](http://contributor-covenant.org) code of conduct.
