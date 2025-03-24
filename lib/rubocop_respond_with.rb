@@ -4,7 +4,7 @@ require "rubocop"
 module RuboCop
   module Cop
     module Lint
-      class RespondWith < Cop
+      class RespondWith < Base
         def on_send(node)
           return unless node.to_a[1] == :respond_with
           msg = "You have a 'respond_with' statement!"
